@@ -1,0 +1,94 @@
+/*
+  RGB - HEX -HLS litir
+  id trompar class í breytingum
+  .nafn er class
+  #nafn er id
+  */
+
+a {
+  color: #eb1212bb;
+}
+#header1 {
+  color: orange;
+}
+
+#header2 {
+  color: green;
+}
+
+#header3 {
+  color: rgb(0, 110, 255);
+}
+p {
+  color: rgb(195, 202, 196);
+  padding: 30px;
+  border: 1px solid rgb(0, 0, 0);
+  margin: 30px;
+}
+header {
+  background-color: rgb(35, 35, 112);
+}
+/*
+  SELECTORS:
+  -id = #
+  -class =.
+  -element = t.d p h
+  */
+body {
+  font-family: Bitcount Prop Single Ink;
+  background-color: rgb(255, 255, 255);
+}
+footer {
+  color: white;
+}
+.redHead {
+  color: red;
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.divgroup {
+  background-color: rgb(7, 7, 134);
+}
+
+#container {
+  background-color: aqua;
+  width: 200px;
+  height: 200px;
+  border-radius: 10%;
+  border-style: outset;
+  border-width: 10px;
+
+  overflow: auto;
+
+  /*
+    BOX-MODEL
+      -Padding: Pláss inni í element
+      -Border: borderið í kringum element
+      -Margin: Pláss fyrir utan element
+  */
+  padding: 30px;
+
+  border-color: white;
+}
+
+#container2 {
+  background-color: aqua;
+  width: 200px;
+  height: 200px;
+
+  border-top: 5px solid red;
+  border-right: 5px solid blueviolet;
+  border-left: 5px solid green;
+  border-bottom: 5px solid white;
+
+  margin: 100px;
+}
+
+#displayDiv {
+  background-color: rgb(255, 217, 0);
+  display: inline-block;
+  /*eða block fyrir allt svæðið*/
+}
+#inlineSpan {
+  background-color: red;
+}
